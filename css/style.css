@@ -443,7 +443,7 @@ button {
     margin-right: 0;
 }
 
-.client-item-list-link {
+.client-list-item-link {
     width: 170px;
     height: 90px;
     justify-content: center;
@@ -456,19 +456,19 @@ button {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-item-list-link-icon {
+.client-list-item-link-icon {
     fill: #afb1b8;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-item-list-link:hover,
-.client-item-list-link:focus {
+.client-list-item-link:hover,
+.client-list-item-link:focus {
     border-color: var(--accent-color);
 }
 
-.client-item-list-link:hover .client-item-list-link-icon,
-.client-item-list-link:focus .client-item-list-link-icon {
+.client-list-item-link:hover .client-list-item-link-icon,
+.client-list-item-link:focus .client-list-item-link-icon {
     fill: var(--accent-color);
 }
 
