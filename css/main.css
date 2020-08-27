@@ -518,8 +518,8 @@ button {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -608,25 +608,25 @@ button {
 .antenna::before {
   display: block;
   content: "";
-  background-image: url("../../images/about/antenna.svg");
+  background-image: url("../images/about/antenna.svg");
 }
 
 .clock::before {
   display: block;
   content: "";
-  background-image: url("../../images/about/clock.svg");
+  background-image: url("../images/about/clock.svg");
 }
 
 .diagram::before {
   display: block;
   content: "";
-  background-image: url("../../images/about/diagram.svg");
+  background-image: url("../images/about/diagram.svg");
 }
 
 .astronaut::before {
   display: block;
   content: "";
-  background-image: url("../../images/about/astronaut.svg");
+  background-image: url("../images/about/astronaut.svg");
 }
 
 .socials-list {
@@ -1121,7 +1121,7 @@ button {
 
 .checkbox-input:checked + .form-label-checkbox::before {
   background-color: #2196f3;
-  background-image: url(../../images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   background-repeat: no-repeat;
   background-position: center;
   border-color: transparent;
