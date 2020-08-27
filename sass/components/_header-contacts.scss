@@ -1,0 +1,35 @@
+.contact-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.contact-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contact-list-item-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $text-color-light-theme;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    vertical-align: middle;
+
+    fill: $text-color-light-theme;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .contact-list-item-link:hover,
+    .contact-list-item-link:focus {
+        fill: $accent-color;
+    }
+}
+
+// .contact-list-item-link:hover .contact-icon,
+// .contact-list-item-link:focus .contact-icon {
+//     fill: var(--accent-color);
+// }
