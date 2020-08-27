@@ -1008,7 +1008,7 @@ button {
   display: flex;
 }
 
-.footer-section:not(:last-child) {
+.footer-section {
   margin-right: 70px;
 }
 
@@ -1035,8 +1035,12 @@ button {
   color: #2196f3;
 }
 
-.follow {
+.footer-follow {
   margin-top: 12px;
+  margin-right: 93px;
+}
+
+.follow {
   font-weight: 700;
   font-size: var(--text-font-size);
   line-height: 1.14;
