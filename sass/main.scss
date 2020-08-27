@@ -1,8 +1,7 @@
 @import "./utils/variables";
-@import "./utils/placeholders";
-@import "./utils/mixins";
 @import "./utils/vs";
 @import "./base/normalize";
+@import "./base/fonts";
 @import "./base/common";
 @import "./base/container";
 @import "./components/header";
@@ -14,8 +13,9 @@
 @import "./components/about";
 @import "./components/team";
 @import "./components/partners";
+@import "./components/portfolio-filters";
+@import "./components/portfolio";
 @import "./components/footer";
 @import "./components/footer-socials";
 @import "./components/footer_input";
 @import "./components/modal";
-@import "./portfolio.scss";
